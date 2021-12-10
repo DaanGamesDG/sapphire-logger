@@ -1,0 +1,28 @@
+# Yarn
+.yarn
+.npmignore
+yarn.lock
+.yarnrc.yml
+
+# Husky/lint-staged
+.husky
+.commitlintrc.json
+.lintstagedrc.json
+
+# TypeScript
+tsconfig.json
+tsconfig.eslint.json
+
+# Eslint
+.eslintrc.json
+.eslintignore
+
+# Prettier
+.prettierrc.js
+
+# Git
+.gitignore
+.github
+
+# Renovate
+renovate.json
