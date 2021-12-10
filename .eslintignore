@@ -1,6 +1,11 @@
 node_modules
 dist
 
+register.js
+tsconfig.json
+register.mjs
+register.d.ts
+
 package.json
 .lintstagedrc.json
 .commitlintrc.json

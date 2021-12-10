@@ -2,9 +2,26 @@
 	"name": "project-template",
 	"version": "1.0.0",
 	"description": "Personal project template by DaanGamesDG",
-	"main": "dist/index.js",
 	"author": "DaanGamesDG <daan@daangamesdg.xyz>",
 	"license": "MIT",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"exports": {
+		".": {
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.js"
+		},
+		"./register": {
+			"import": "./register.mjs",
+			"require": "./register.js"
+		}
+	},
+	"sideEffects": [
+		"./dist/register.js",
+		"./register.js",
+		"./register.mjs"
+	],
 	"devDependencies": {
 		"@commitlint/cli": "^15.0.0",
 		"@commitlint/config-angular": "^15.0.0",
@@ -31,6 +48,7 @@
 	"dependencies": {
 		"@sapphire/framework": "^2.2.1",
 		"colorette": "^2.0.16",
-		"discord.js": "^13.3.1"
+		"discord.js": "^13.3.1",
+		"tslib": "^2.3.1"
 	}
 }
