@@ -1,7 +1,7 @@
 {
-	"name": "project-template",
+	"name": "@daangamesdg/sapphire-logger",
 	"version": "1.0.0",
-	"description": "Personal project template by DaanGamesDG",
+	"description": "A personal logger I use for all my Sapphire Discord bot projects",
 	"author": "DaanGamesDG <daan@daangamesdg.xyz>",
 	"license": "MIT",
 	"main": "dist/index.js",
@@ -17,11 +17,6 @@
 			"require": "./register.js"
 		}
 	},
-	"sideEffects": [
-		"./dist/register.js",
-		"./register.js",
-		"./register.mjs"
-	],
 	"devDependencies": {
 		"@commitlint/cli": "^15.0.0",
 		"@commitlint/config-angular": "^15.0.0",
