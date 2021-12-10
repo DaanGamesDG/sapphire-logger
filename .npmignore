@@ -12,6 +12,7 @@ yarn.lock
 # TypeScript
 tsconfig.json
 tsconfig.eslint.json
+src
 
 # Eslint
 .eslintrc.json
