@@ -1,6 +1,6 @@
 {
 	"name": "@daangamesdg/sapphire-logger",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A personal logger I use for all my Sapphire Discord bot projects",
 	"author": "DaanGamesDG <daan@daangamesdg.xyz>",
 	"license": "MIT",
